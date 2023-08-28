@@ -1,6 +1,5 @@
 # Cloud-Application-Deployment-for-Hotel-guest-records-app
 # Use-case : Migration of On-premise hotel application to store guest Covid test results, to an Agile MultiCloud architecture, using Google Cloud for Virtual environment and AWS for storage of files.
-(Credits - [https://thecloudbootcamp.com/]
 
 In this project, Terraform is used for infrastructure provisioning : Provisioning of S3 bucket on AWS, and a Virtual network inside Google Cloud consisting of Cloud SQL and Kubernetes Engine. Database table was created to store records.
 
@@ -44,3 +43,4 @@ kubectl apply -f <filename>.yaml
 Import a sample database dump (for testing purpose) to Google Cloud SQL, using the db_dump.sql file
 On AWS Cloud Shell, execute - aws s3 sync . s3://<bucket_name>
 
+(Please follow - [https://thecloudbootcamp.com/] for more)
